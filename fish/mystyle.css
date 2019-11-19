@@ -1,0 +1,22 @@
+header, footer {
+	color: white;
+	background-color: black;
+	text-align: center;
+	padding: 5px;
+}
+
+#redTest {
+	color: red;
+}
+
+.blueTest {
+	color: blue;
+}
+
+.content {
+	border: 1px solid gray;
+}
+
+h2 {
+	padding-left: 20px;
+}
