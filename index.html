@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+  <title>Examples</title>
+
+<script type="text/javascript">
+
+function google_win() {
+	window.open("https://www.google.com/search?hl=&site=&q=depends+for+men+coupons","_blank");
+}
+
+function lmgtfy() {
+	window.open("http://letmegooglethat.com/?q=depends+for+men+coupons","_blank");
+}
+
+function open_win() {
+  window.open("instructions.html", "bob");
+
+  var linkArray = []; // your links
+	linkArray[0] = "https://palmettostatearmory.com/";
+	linkArray[1] = "https://www.cheaperthandirt.com/";
+	linkArray[2] = "https://www.budsgunshop.com/";
+	linkArray[3] = "https://www.impactguns.com/";
+	linkArray[4] = "https://grabagun.com/";
+	linkArray[5] = "https://www.rkguns.com/";
+	linkArray[6] = "https://www.preppergunshop.com/";
+
+	for (var i = 0; i < linkArray.length; i++) {
+    // will open each link in the current window
+    window.open(linkArray[i], "_blank");
+	}
+}
+
+</script>
+</head>
+<body>
+  <h1>Simple Misuse Case Examples</h1>
+  <br>
+  
+  <h2>Banner Ads</h2>
+  <p><a href="http://www.internetbadguys.com" target="_blank"><img src="ebay_ad.png" alt="ebay ad"></a></p><br>
+
+  <h2>Content Versus Destination</h2>
+  <p>Racism is stupid, I'm a <a href="https://www.youtube.com/watch?v=oHg5SJYRHA0" target="_blank">panda</a>. I'm Black, White, and Asian. And everyone loves me!</p><br>
+
+  <h2>Unattended Search</h2>
+	<form>
+		<input type=button value="Mouse-click Only" onclick="google_win()">
+		<input type=button value="With Keyboard Input" onclick="lmgtfy()">
+	</form><br><br>
+
+  <h2>Multiple Browser Destinations</h2>
+	<form>
+	  <input type=button value="Open Windows" onclick="open_win()">
+	<form>
+
+</body>
+
+</html>
